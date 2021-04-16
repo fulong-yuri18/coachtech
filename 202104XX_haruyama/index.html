@@ -4,13 +4,164 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>タイトル</title>
+  <title>estra inc</title>
   <link rel="stylesheet" href="css/reset.css" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
-  <!-- 以下の内容を追加します -->
+	<!--header-->
+  <header class="l-header u-flex">
+		<h1 class="p-header__h1"><a href="index.html"><img src="img/estra_logo.png" alt="株式会社estra"></a></h1>
+		<nav class="p-header__nav">
+			<ul class="u-flex">
+				<li><a href="#">News</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Service</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Company</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--main-->
+	<main class="l-main">
+		<!--firstview-->
+		<div class="p-firstview">
+			<p>すべての人の<span>成長に</span>コミット</p>
+		</div>
+		<!--news-->
+		<div class="p-news">
+			<h2 class="p-news__ttl">新着情報</h2>
+			<dl class="p-news__list u-flex">
+				<dt>2021/01/01</dt>
+				<dd>COACHTECHのサービスが開始されました。</dd>
+				<dt>2021/01/01</dt>
+				<dd>COACHTECHのサービスが開始されました。</dd>
+				<dt>2021/01/01</dt>
+				<dd>COACHTECHのサービスが開始されました。</dd>
+			</dl>
+		</div>
+		<!--about-->
+		<div class="p-about">
+			<h2 class="p-about__ttl">Technology × Coaching</h2>
+			<div class="p-about__wrap u-flex">
+				<p class="p-about__cont">株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入することによって教育のDXを実現します。<br><br>独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、一人ひとりに合わせた最適な教育を提供します。</p>
+				<div class="p-about__img"><img src="img/about.jpg"></div>
+			</div>
+		</div>
+		<!--service-->
+		<div class="p-service">
+			<h2 class="p-service__ttl">サービス内容</h2>
+			<div class="p-service__wrap">
+				<div class="p-service1">
+					<div class="p-service1__img"><img src="img/service__first.svg" alt="サービス1"></div>
+					<h3 class="p-service1__ttl">教育事業</h3>
+					<p class="p-service1__text">サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+				</div>
+				<div class="p-service2">
+					<div class="p-service2__img"><img src="img/service__second.svg" alt="サービス2"></div>
+					<h3 class="p-service2__ttl">教育事業</h3>
+					<p class="p-service2__text">サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+				</div>
+				<div class="p-service3">
+					<div class="p-service3__img"><img src="img/service__third.svg" alt="サービス3"></div>
+					<h3 class="p-service3__ttl">教育事業</h3>
+					<p class="p-service3__text">サンプルテキストがここには入ります。サンプルテキストがここには入ります。サンプルテキストがここには入ります。</p>
+				</div>
+			</div>
+		</div>
+		<!--blog-->
+		<div class="p-blog">
+			<h2>ブログ</h2>
+			<div class="p-blog__cont u-flex">
+				<div class="c-blog__card">
+					<p class="p-blog__tag">Blog</p>
+					<div class="p-blog__img"><img src="img/blog__first.jpg" alt="ブログ1"></div>
+					<h3 class="p-blog__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+					<div class="p-blog__detail u-flex">
+						<div class="p-blog__time">
+							<time>2021/01/01</time>
+						</div>
+						<p class="p-blog__tag">#COACHTECH</p>
+					</div>
+				</div>
+				<div class="c-blog__card">
+					<p class="p-blog__tag">Blog</p>
+					<div class="p-blog__img"><img src="img/blog__second.jpg" alt="ブログ2"></div>
+					<h3 class="p-blog__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+					<div class="p-blog__detail u-flex">
+						<div class="p-blog__time">
+							<time>2021/01/01</time>
+						</div>
+						<p class="p-blog__tag">#COACHTECH</p>
+					</div>
+				</div>
+				<div class="c-blog__card">
+					<p class="p-blog__tag">Blog</p>
+					<div class="p-blog__img"><img src="img/blog__third.jpg" alt="ブログ3"></div>
+					<h3 class="p-blog__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+					<div class="p-blog__detail u-flex">
+						<div class="p-blog__time">
+							<time>2021/01/01</time>
+						</div>
+						<p class="p-blog__tag">#COACHTECH</p>
+					</div>
+				</div>
+			</div>
+			<div class="p-blog__btn"><a href="#">一覧ページへ</a></div>
+		</div>
+		<!--company-->
+		<div class="p-company">
+			<h2 class="p-company__ttl">会社概要</h2>
+			<table class="p-company__tbl">
+				<tr>
+					<th>会社名</th>
+					<td>株式会社estra</td>
+				</tr>
+				<tr>
+					<th>代表者名</th>
+					<td>福場凛太郎</td>
+				</tr>
+				<tr>
+					<th>本社所在地</th>
+					<td>東京都渋谷区1-1-1</td>
+				</tr>
+				<tr>
+					<th>従業員数</th>
+					<td>100名</td>
+				</tr>
+				<tr>
+					<th>電話</th>
+					<td>0120-00-0000</td>
+				</tr>
+				<tr>
+					<th>資本金</th>
+					<td>¥10,000,000円</td>
+				</tr>
+			</table>
+		</div>
+		<!--link-->
+		<div class="p-link u-flex">
+			<div class="p-link1">
+				<a href="#">採用情報</a>
+			</div>
+			<div class="p-link2">
+				<a href="#">社員インタビュー</a>
+			</div>
+		</div>
+		<!--contact-->
+		<div class="p-contact">
+			<h2 class="p-contact__ttl">株式会社estraへのお問い合わせはこちらから</h2>
+			<div class="p-contact__btn">
+				<a href="#">お問い合わせ</a>
+			</div>
+		</div>
+	</main>
+	<!--footer-->
+	<footer class="l-footer">
+		<small>Copyright &copy; estra,inc All Rights Reserved.</small>
+	</footer>
 </body>
 
 </html>
