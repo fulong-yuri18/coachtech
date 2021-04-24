@@ -6,13 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>estra inc</title>
   <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/style.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<!--header-->
   <header class="l-header u-flex">
-		<h1 class="p-header__h1"><a href="index.html"><img src="img/estra_logo.png" alt="株式会社estra"></a></h1>
+		<h1 class="p-header__ttl"><a href="index.html"><img src="img/estra_logo.png" alt="株式会社estra"></a></h1>
 		<nav class="p-header__nav">
 			<ul class="u-flex">
 				<li><a href="#">News</a></li>
@@ -28,12 +31,18 @@
 	<main class="l-main">
 		<!--firstview-->
 		<div class="p-firstview">
-			<p>すべての人の<span>成長に</span>コミット</p>
+			<p class="p-firstview__en--1">Commit to the <span>growth</span></p>
+			<p class="p-firstview__en--2">for everyone</p>
+			<p class="p-firstview__jpn">全ての人の<span>成長に</span>コミットする</p>
 		</div>
 		<!--news-->
 		<div class="p-news">
-			<h2 class="p-news__ttl">新着情報</h2>
+			<h2 class="p-news__ttl c-h2">新着情報</h2>
 			<dl class="p-news__list u-flex">
+				<dt>2021/01/01</dt>
+				<dd>COACHTECHのサービスが開始されました。</dd>
+				<dt>2021/01/01</dt>
+				<dd>COACHTECHのサービスが開始されました。</dd>
 				<dt>2021/01/01</dt>
 				<dd>COACHTECHのサービスが開始されました。</dd>
 				<dt>2021/01/01</dt>
@@ -44,7 +53,7 @@
 		</div>
 		<!--about-->
 		<div class="p-about">
-			<h2 class="p-about__ttl">Technology × Coaching</h2>
+			<h2 class="p-about__ttl c-h2">Technology × Coaching</h2>
 			<div class="p-about__wrap u-flex">
 				<p class="p-about__cont">株式会社estraはデジタル化が遅れている教育業界に最新のテクノロジーを導入することによって教育のDXを実現します。<br><br>独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、一人ひとりに合わせた最適な教育を提供します。</p>
 				<div class="p-about__img"><img src="img/about.jpg"></div>
@@ -52,7 +61,7 @@
 		</div>
 		<!--service-->
 		<div class="p-service">
-			<h2 class="p-service__ttl">サービス内容</h2>
+			<h2 class="p-service__ttl c-h2">サービス内容</h2>
 			<div class="p-service__wrap">
 				<div class="p-service1">
 					<div class="p-service1__img"><img src="img/service__first.svg" alt="サービス1"></div>
@@ -73,12 +82,12 @@
 		</div>
 		<!--blog-->
 		<div class="p-blog">
-			<h2>ブログ</h2>
+			<h2 class="p-blog__ttl c-h2">ブログ</h2>
 			<div class="p-blog__cont u-flex">
 				<div class="c-blog__card">
 					<p class="p-blog__tag">Blog</p>
 					<div class="p-blog__img"><img src="img/blog__first.jpg" alt="ブログ1"></div>
-					<h3 class="p-blog__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+					<h3 class="p-blog__title">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
 					<div class="p-blog__detail u-flex">
 						<div class="p-blog__time">
 							<time>2021/01/01</time>
@@ -89,7 +98,7 @@
 				<div class="c-blog__card">
 					<p class="p-blog__tag">Blog</p>
 					<div class="p-blog__img"><img src="img/blog__second.jpg" alt="ブログ2"></div>
-					<h3 class="p-blog__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+					<h3 class="p-blog__title">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
 					<div class="p-blog__detail u-flex">
 						<div class="p-blog__time">
 							<time>2021/01/01</time>
@@ -100,7 +109,7 @@
 				<div class="c-blog__card">
 					<p class="p-blog__tag">Blog</p>
 					<div class="p-blog__img"><img src="img/blog__third.jpg" alt="ブログ3"></div>
-					<h3 class="p-blog__ttl">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
+					<h3 class="p-blog__title">プログラミング学習の勉強方法を特集。挫折しない秘訣とは？</h3>
 					<div class="p-blog__detail u-flex">
 						<div class="p-blog__time">
 							<time>2021/01/01</time>
@@ -113,7 +122,7 @@
 		</div>
 		<!--company-->
 		<div class="p-company">
-			<h2 class="p-company__ttl">会社概要</h2>
+			<h2 class="p-company__ttl c-h2">会社概要</h2>
 			<table class="p-company__tbl">
 				<tr>
 					<th>会社名</th>
@@ -137,7 +146,7 @@
 				</tr>
 				<tr>
 					<th>資本金</th>
-					<td>¥10,000,000円</td>
+					<td>&yen;10,000,000円</td>
 				</tr>
 			</table>
 		</div>
@@ -152,7 +161,7 @@
 		</div>
 		<!--contact-->
 		<div class="p-contact">
-			<h2 class="p-contact__ttl">株式会社estraへのお問い合わせはこちらから</h2>
+			<h2 class="p-contact__ttl c-h2">株式会社estraへのお問い合わせはこちらから</h2>
 			<div class="p-contact__btn">
 				<a href="#">お問い合わせ</a>
 			</div>
