@@ -1,0 +1,461 @@
+/**
+ *  Foundation
+ * ========================== */
+
+/**
+ *  Layout
+ * ========================== */
+
+/* Header */
+.l-header{
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 30px;
+}
+
+/* Main */
+.l-main{
+	width: 100%;
+}
+
+/* Footer */
+.l-footer{
+	width: 100%;
+	padding: 20px 0;
+	background: #EEE;
+	text-align: center;
+}
+
+/*  Object
+ *  ========================== */
+
+/* Component ------------ */
+.c-h2{
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+/* Project -------------- */
+
+/* ttlクラスbeforeフォント指定 */
+.p-news__ttl::before,
+.p-about__ttl::before,
+.p-service__ttl::before,
+.p-blog__ttl::before,
+.p-company__ttl::before{
+	display: block;
+	color:#B91A6E;
+	font-size: 1.4rem;
+	font-family: 'Indie Flower', cursive;
+}
+
+/* Header */
+
+.p-header__ttl a img{
+	width: 150px;
+}
+
+.p-header__nav{
+	padding: 20px 0;
+	width: 400px;
+}
+
+.p-header__nav ul{
+	justify-content: space-between;
+}
+
+/* FristView */
+
+.p-firstview{
+	padding: 100px 200px;
+	margin-bottom: 100px;
+	background-image: url("../img/firstview.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 60% auto;
+}
+
+.p-firstview__en--1, .p-firstview__en--2{
+	color:#B91A6E;
+	font-family: 'Indie Flower', cursive;
+	font-size: 6rem;
+	font-weight: bold;
+}
+
+.p-firstview__en--1 span{
+	color:#4FADB5;
+}
+
+.p-firstview__en--2{
+	padding-bottom: 20px;
+}
+
+.p-firstview__jpn{
+	color:#B91A6E;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.p-firstview__jpn span{
+	color:#4FADB5;
+}
+
+.p-firstview__jpn::after{
+	display: block;
+	content: "Educational Technology Company\A estra inc since 2019";
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: #666;
+	white-space: pre;
+}
+
+/* News */
+
+.p-news{
+	width: 60%;
+	padding-bottom: 100px;
+	margin: auto;
+}
+
+.p-news__ttl{
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
+
+.p-news__wrapper{
+	padding: 20px 0;
+	border-top: 1.5px solid #BBB;
+	border-bottom: 1.5px solid #BBB;
+}
+
+.p-news__ttl::before{
+	content: 'News';
+}
+
+.p-news__list{
+	border-bottom: 1px solid #DDD;
+	padding: 10px 0;
+}
+
+.p-news__date{
+	width: 80px;
+	padding: 5px 0;
+}
+
+.p-news__tag{
+	width: 100px;
+	margin: 5px 5px 5px 40px;
+	border-radius: 20px;
+	background: #B91A6E;
+	color: #FFF;
+	text-align: center;
+}
+
+.p-news__cont{
+	padding: 5px 0 5px 30px;
+}
+
+/* About */
+
+.p-about{
+	background-color: #EEE;
+	margin: auto;
+	padding-bottom: 50px;
+}
+
+.p-about__ttl{
+	text-align: center;
+	padding: 50px 0;
+}
+
+.p-about__ttl::before{
+	content: 'About';
+}
+
+.p-about__wrap{
+	margin: auto;
+	width: 65%;
+	justify-content: space-between;
+}
+
+.p-about__cont{
+	width: 40%;
+}
+
+.p-about__img{
+	width: 40%;
+}
+
+/* Service */
+
+.p-service{
+	width: 70%;
+	padding: 50px 0;
+	margin: auto;
+}
+
+.p-service__ttl::before{
+	content: 'Service';
+}
+
+.p-service__wrap{
+	display: grid;
+	grid-template-rows: 220px 220px;
+	grid-template-columns: 1fr 1fr;
+}
+
+.p-service1{
+	grid-column: 1/2;
+	grid-row: 1/3;
+	height: 100%;
+	margin: auto;
+	padding: 50px;
+	background: #B31667;
+	color: #EEE;
+}
+
+.p-service1__img{
+	width: 40%;
+	margin: auto;
+}
+
+.p-service1__ttl{
+	padding: 10px 0;
+	text-align: center;
+}
+
+.p-service2{
+	grid-column: 2/3;
+	grid-row: 1/2;
+	height: 100%;
+	margin: auto;
+	padding: 30px;
+	background: #B35B8B;
+	color: #EEE;
+}
+
+.p-service2__img{
+	width: 30%;
+	margin: auto;
+}
+
+.p-service2__cont{
+	width: 60%;
+	margin: auto;
+}
+
+.p-service3{
+	grid-column: 2/3;
+	grid-row: 2/3;
+	height: 100%;
+	margin: auto;
+	padding: 30px;
+	background: #B2889E;
+	color: #EEE;
+}
+
+.p-service3__img{
+	width: 30%;
+	margin: auto;
+}
+
+.p-service3__cont{
+	width: 60%;
+	margin: auto;
+}
+
+/* Blog */
+
+.p-blog{
+	margin: auto;
+	padding: 50px 15%;
+	background-color: #EEE;
+}
+
+.p-blog__ttl{
+	padding-bottom: 30px;
+}
+
+.p-blog__ttl::before{
+	content: 'Blog';
+}
+
+.p-blog__cont{
+	justify-content: space-between;
+	/*width: 70%;*/
+	margin: auto;
+}
+
+.p-blog__card{
+	width: 30%;
+	border-radius: 20px;
+	background: #FFF;
+}
+
+.p-blog__tag{
+	position: absolute;
+	padding: 5px 15px;
+	border-radius: 20px 0 0 0;
+	background: #B31667;
+	color: #EEE;
+}
+
+.p-blog__img img{
+	border-radius: 20px 20px 0 0;
+}
+
+.p-blog__title{
+	padding: 20px;
+}
+
+.p-blog__detail{
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.p-blog__time, .p-blog__lbl{
+	width: 50%;
+	font-size: 1.4rem;
+}
+
+.p-blog__lbl{
+	text-align: end;
+}
+
+.p-blog__btn{
+	padding-top: 30px;
+}
+
+.p-blog__btn a{
+	display: block;
+	width: 200px;
+	padding: 10px;
+	margin: auto;
+	border: 1px solid #B31667;
+	border-radius: 30px;
+	background: #FFF;
+	color: #B31667;
+	text-align: center;
+}
+
+/* Company */
+
+.p-company{
+	width: 60%;
+	padding: 100px 0;
+	margin: auto;
+}
+
+.p-company__ttl{
+	padding-bottom: 50px;
+}
+
+.p-company__ttl::before{
+	content: 'Company';
+}
+
+.p-company__tbl{
+	width: 100%;
+}
+
+.p-company__tbl th, .p-company__tbl td{
+	padding: 10px;
+	border:1px solid #BBB;
+}
+
+.p-company__tbl th{
+	width: 30%;
+	background: #EEE;
+	text-align: left;
+}
+
+.p-company__tbl td{
+	width: 70%;
+}
+
+/* Link */
+
+.p-link{
+	width: 100%;
+	justify-content: space-around;
+}
+
+.p-link1, .p-link2{
+	width: 50%;
+}
+
+.p-link1 a, .p-link2 a{
+	display: block;
+	padding: 150px 0;
+	text-align: center;
+	color: #EEE;
+	font-size: 2.6rem;
+	font-weight: bold;
+}
+
+.p-link1 a{
+	background: center/cover url("../img/recruit.png") no-repeat;
+}
+
+.p-link2 a{
+	background: center/cover url("../img/interview.png") no-repeat;
+}
+
+/* Contact */
+
+.p-contact{
+	padding: 100px 0;
+	text-align: center;
+}
+
+.p-contact__btn::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 2px;
+  height: 40px;
+  margin: auto;
+  background-color: #B31667;
+}
+
+.p-contact__btn::after {
+  content: '';
+  position: absolute;
+  background: url(../img/mailicon.svg);
+  top: 115px;
+  left: 30px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.p-contact__btn{
+	position: relative;
+  display: inline-block;
+	padding-top: 100px;
+	margin: auto;
+}
+
+.p-contact__btn a{
+	display: block;
+	width: 300px;
+	padding: 20px 0;
+	margin: auto;
+	border-radius: 35px;
+	background: linear-gradient(0.25turn, #FD1F8E, #B41764);
+	color: #EEE;
+	box-shadow: 0 10px #840050;
+}
+
+
+/* Utility -------------- */
+.u-flex{
+	display: flex;
+	flex-wrap: wrap;
+}
